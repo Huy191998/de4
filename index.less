@@ -265,11 +265,14 @@
 					margin-top: 3%;
 					width: 40%;
 					height: 70%;
+					@media (max-width: 1024px){
+						display: none;
+					}
 					img {
 						margin-top: 10%;
 						margin-left: 10%;
-						width: 80%;
-						height: 80%;
+						width: 330px;
+						height: 330px;
 						position: relative;
 						transition: 1s;
 						&:hover {
@@ -289,7 +292,7 @@
 							transform: scale(1.1);
 						}
 						i{
-							margin-left: 35%;
+							margin-left: 37%;
 							margin-top: 35%;
 							color: white;
 							font-size: 20px;
@@ -395,11 +398,13 @@
 		}
 	}
 }
+
 @media screen and (max-width: 768px) {
   #box2{
 	.box22{
 		.box212{
 			.o2{
+				display: none;
 				.oo2{
 					display: none;
 				}
